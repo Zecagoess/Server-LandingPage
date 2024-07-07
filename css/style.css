@@ -1,0 +1,352 @@
+/*Paleta de cores 
+#fff
+#f1f3f7
+#f6f6f6
+#a89f9f
+#233032
+#2f86d6
+
+rgba(47, 134, 214, 1) -> sombreado
+
+
+*/
+
+/*Fonte 
+
+poppins
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+
+span {
+    color: #2f86d6;
+}
+
+/*************TOPO*****************/
+
+#topo {
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.section {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+
+
+
+}
+
+.logo-img {
+    width: 65px;
+}
+
+.logo-texto {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.azul {
+    color: #2f86d6;
+}
+
+.branco {
+    color: #fff;
+}
+
+.bg-azul {
+    background-color: #2f86d6;
+}
+
+.menu-topo {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+
+}
+
+.preto {
+    color: #233032;
+}
+
+.menu-topo a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/**************BANNER**************/
+
+#banner {
+    background-color: #2f86d6;
+    padding: 180px 0px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner-img {
+    width: 50%;
+    margin-left: auto;
+
+
+
+}
+
+.banner-texto {
+    width: 470px;
+    text-align: left;
+    position: absolute;
+    top: 110px;
+}
+
+.banner-texto h2 {
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.banner-texto p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*****************Secao Anuncio*************/
+
+#primeiro-anuncio {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #233032;
+    color: #fff;
+}
+
+
+.texto-anuncio {
+    width: 600px;
+    margin: 5px 0px;
+}
+
+.texto-anuncio h3 {
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.texto-anuncio p {
+    font-size: 16px;
+}
+
+#primeiro-anuncio a {
+    background-color: #2f86d6;
+    padding: 20px;
+    width: 200px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+/********Informacoes***********/
+
+#informacoes {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.texto-informacoes {
+    width: 900px;
+    margin: 0px auto 50px auto;
+    font-size: 22px;
+}
+
+
+.centro {
+    position: absolute;
+    left: 342px;
+    top: 0;
+}
+
+.direita {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bloco-info {
+    width: 33%;
+
+}
+
+.bloco-info img {
+    width: 120px;
+}
+
+.bloco-info img,
+h3 {
+    margin-bottom: 20px;
+}
+
+
+/***********PRECOS*************/
+
+#precos {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#precos h2 {
+    margin-bottom: 60px;
+}
+
+.cinza {
+    background-color: #f1f3f7;
+}
+
+.cinza-claro {
+    background-color: #f6f6f6;
+}
+
+table {
+    text-align: center;
+
+    width: 1024px;
+    box-shadow: 0px 0px 40px 0px rgba(47, 134, 214, 1);
+
+}
+
+thead h3 {
+    margin-top: 20px;
+}
+
+thead img {
+    width: 150px;
+}
+
+thead p {
+    color: #a89f9f;
+    width: 180px;
+    margin: 20px auto;
+}
+
+tbody {
+    margin-top: 20px;
+}
+
+tbody td {
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+/*********Segundo anuncio*************/
+
+#segundo-anuncio {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #2f86d6;
+    color: #fff;
+}
+
+#segundo-anuncio a {
+    background-color: #233032;
+    padding: 20px;
+    width: 200px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+/*********Rodape*************/
+
+#contatos {
+    padding: 100px 0px;
+}
+
+#contatos p,
+#rodape p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.logo-rodape {
+    position: relative;
+    width: 300px;
+    margin: 0 auto 40px auto;
+}
+
+.rodape {
+
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #f1f3f7;
+    text-align: center;
+}
+
+
+/***********TABELA SERVICOS***********/
+
+#area-tabela {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.invisivel {
+    visibility: hidden;
+}
+
+
+#tabela-precos th,
+.celula-produtos {
+    background-color: #f1f3f7;
+
+}
+
+#tabela-precos p {
+    font-size: 14px;
+    font-weight: 450;
+    margin-bottom: 0;
+}
+
+#tabela-precos h4 {
+    margin-top: 0;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+#tabela-precos td {
+    font-size: 12px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+
+}
+
+#tabela-precos .celula-produtos {
+    width: 300px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.botao {
+    width: 18px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+    color: #2f86d6;
+    margin: 0 auto;
+}
+
+#rodape {
+    padding: 40px 0px;
+}
